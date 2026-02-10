@@ -1,6 +1,6 @@
 # Exportador de Estructura de Carpetas a CSV (PowerShell)
 
-## Propósito
+## 1. Propósito
 
 Este script en PowerShell permite **exportar la estructura completa de carpetas y archivos** de una ruta definida hacia un archivo CSV, representando cada nivel jerárquico en columnas (`Nivel1`, `Nivel2`, ..., `NivelN`).  
 Está diseñado para **documentación, auditorías, control de estructuras, migraciones y análisis de repositorios**.
@@ -9,7 +9,7 @@ El archivo resultante utiliza un **formato en cascada**, donde los niveles repet
 
 ---
 
-## Descripción técnica
+## 2. Descripción técnica
 
 El script realiza las siguientes acciones:
 
@@ -25,7 +25,7 @@ El script realiza las siguientes acciones:
 
 ---
 
-## Instrucciones de uso
+## 3. Instrucciones de uso
 
 ### Requisitos
 - Windows
@@ -71,7 +71,7 @@ Ejemplo:
 estructura_2024.csv
 ```
 
-Diagrama de secuencia (Entrada y salida)
+### 3. Diagrama de secuencia (Entrada y salida)
 ```bash
 [Usuario]
    |
@@ -94,7 +94,7 @@ Diagrama de secuencia (Entrada y salida)
    |-- C:\Script\Estructura\estructura_<origen>.csv
 ```
 
-### Estructura del repositorio
+### 4. Estructura del repositorio
 ```bash
 exportador-estructura-csv/
 │
