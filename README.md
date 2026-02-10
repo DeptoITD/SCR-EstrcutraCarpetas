@@ -71,7 +71,7 @@ Ejemplo:
 estructura_2024.csv
 ```
 
-### 3. Diagrama de secuencia (Entrada y salida)
+### 4. Diagrama de secuencia (Entrada y salida)
 ```bash
 [Usuario]
    |
@@ -94,7 +94,7 @@ estructura_2024.csv
    |-- C:\Script\Estructura\estructura_<origen>.csv
 ```
 
-### 4. Estructura del repositorio
+### 5. Estructura del repositorio
 ```bash
 exportador-estructura-csv/
 │
