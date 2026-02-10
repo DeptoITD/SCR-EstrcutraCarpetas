@@ -35,34 +35,44 @@ El script realiza las siguientes acciones:
 
 ### Ejecución con parámetro
 
-```powershell
+```bash
 .\ExportarEstructura.ps1 -RutaOrigen "D:\Proyectos\2024"
+```
 
-Ejecución sin parámetro
+### Ejecución sin parámetro
+
+```bash
 .\ExportarEstructura.ps1
-
+```
 
 El script solicitará la ruta por consola:
 
+```bash
 Ingresa la ruta que quieres listar (ej. D:\Proyectos\2024)
+```
 
-Salida generada
+### Salida generada
 
-Ruta fija de salida:
+- Ruta fija de salida:
 
+```bash
 C:\Script\Estructura\
+```
 
+- Nombre del archivo:
 
-Nombre del archivo:
-
+```bash
 estructura_<NombreCarpetaOrigen>.csv
-
+```
 
 Ejemplo:
 
+```bash
 estructura_2024.csv
+```
 
 Diagrama de secuencia (Entrada y salida)
+```bash
 [Usuario]
    |
    |-- (1) Ejecuta script
@@ -82,12 +92,15 @@ Diagrama de secuencia (Entrada y salida)
 [Salida]
    |
    |-- C:\Script\Estructura\estructura_<origen>.csv
+```
 
-Estructura del repositorio
+### Estructura del repositorio
+```bash
 exportador-estructura-csv/
 │
-├── ExportarEstructura.ps1      # Script principal
+├── ExportarEstructuraCarpetas.ps1      # Script principal
 ├── README.md                   # Documentación técnica y funcional
-├── CHANGELOG.md                # Bitácora de cambios
+├── Bitacora.md                # Bitácora de cambios
 └── ejemplos/
     └── estructura_ejemplo.csv  # Ejemplo de salida (opcional)
+```
